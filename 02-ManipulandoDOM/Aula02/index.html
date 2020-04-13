@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento SkyLab - Trabalhando com a DOM</title>
+</head>
+<body>
+
+    <input type="text" id="inpText">
+    <input type="button" id="butAdiciona" value="Adicionar">
+
+    <script>
+
+       
+        var butAdiciona = document.querySelector('#butAdiciona');
+
+        butAdiciona.onclick = function cliqueBut(){
+            var inputElement = document.querySelector('#inpText');
+            alert(`Valor inserido: ${inputElement.value}`);
+        }
+
+    </script>
+    
+</body>
+</html>

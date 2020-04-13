@@ -1,0 +1,42 @@
+h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    color: aliceblue;
+}
+
+body {
+    align-items: center;
+    background-color: cornflowerblue;
+}
+
+.container {
+         width: 99vw;
+         background:#2F4F4F;
+         display: flex;
+         flex-direction: row;
+         justify-content: center;
+         align-items: center
+}
+
+#divreptFor {
+        text-align: center;
+        width: 100%;
+}
+
+h2 {
+    color: aliceblue;
+    font-size: 27px;
+}
+
+p {
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#rodape {
+    height: 60px;
+    width:  99vw;
+    background:#2F4F4F;
+}
+

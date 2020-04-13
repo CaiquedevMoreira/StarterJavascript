@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treinamento SkyLab - Lidando com os Elementos</title>
+</head>
+<body>
+
+    <div id="app"> 
+       <p id="inpText"></p>
+    </div>
+
+    <script>
+
+       var linkElement = document.createElement('a');
+       linkElement.setAttribute('href', 'https://google.com.br');
+       linkElement.setAttribute('title', 'Acesso ao Google');
+
+       var textElement = document.createTextNode('Acessar o Google');
+       linkElement.appendChild(textElement);
+
+       var documentContainer = document.querySelector('#inpText')
+       documentContainer.appendChild(linkElement);
+      
+    </script>
+    
+</body>
+</html>

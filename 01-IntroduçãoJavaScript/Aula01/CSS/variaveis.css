@@ -1,0 +1,55 @@
+h1 {
+    font-weight: bold;
+    font-size: 40px;
+    color: aliceblue;
+    margin-left: 30px;
+}
+
+body {
+    align-items: center;
+}
+
+.container {
+         width: 100%;
+         background:#1E90FF;
+         display: inline-block;
+         justify-content: center;
+}
+
+#informacoes {
+        justify-content: center;
+        text-align: center;
+        width: 50%;
+        float: left;
+}
+
+#listaAlunos {
+    width: 50%;
+    float: right;
+    text-align: center;
+}
+
+h2 {
+    color: #696969;
+    font-size: 27px;
+}
+
+p {
+    font-size: 23px;
+    color: #696969;
+}
+
+#array {
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    display: inline-block;
+    margin-bottom: 52px;
+}
+
+#rodape {
+    height: 60px;
+    width:  100;
+    background: #1E90FF;
+}
+
